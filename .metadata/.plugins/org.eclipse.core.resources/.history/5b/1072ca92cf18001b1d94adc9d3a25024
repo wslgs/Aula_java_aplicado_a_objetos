@@ -1,0 +1,24 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio_04 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		int f, n;
+		double v, salario;
+		
+		f = sc.nextInt();
+		n = sc.nextInt();
+		v = sc.nextDouble();
+		salario = n * v;
+		
+		System.out.println("NUMBER = " + f);
+		System.out.printf("SALARY = U$ %.2f%n", salario);
+		
+		sc.close();
+	}
+
+}

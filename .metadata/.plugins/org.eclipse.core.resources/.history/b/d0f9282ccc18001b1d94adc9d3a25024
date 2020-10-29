@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double r, area;
+		r = sc.nextDouble();
+		area = r * r * 3.14159;
+		
+		printf("A=%.4f", area);
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,9 @@
+# Curso de Java - 02
+
+## Scanner
+
+inicializa:	Scanner sc = new Scanner(System.in);	recebe o teclado como entrada
+finaliza:	sc.close();
+strings:	sc.next();
+int:		sc.nextInt();
+double:		sc.nextDouble();

@@ -1,0 +1,16 @@
+# Curso de Java - 01
+
+## Exibição de variáveis:
+
+%d : inteiros
+%f : pontos flutuantes
+%s : strings
+
+## Forma de exibição:
+
+System.out.println();	Exibe o conteúdo e dá uma quebra de linha.
+System.out.printf();	Exibe o conteúdo formatado.
+
+## Local
+
+Locale.setDefault();	Seleciona o local onde o programa estará rodando.
